@@ -1,17 +1,32 @@
 <!doctype html>
-<html class="no-js" lang="">
+<html class="no-js" lang="it">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title></title>
-    <link rel="stylesheet" href="styles/main.css" />
-    <meta name="description" content="" />
+    <title>Mirko Passeri - Sviluppatore Front-End</title>
 
-    <meta property="og:title" content="" />
-    <meta property="og:type" content="" />
-    <meta property="og:url" content="" />
-    <meta property="og:image" content="" />
-    <meta property="og:image:alt" content="" />
+    <!-- Preload per il CSS di Bootstrap e il tuo CSS personalizzato -->
+    <link
+      rel="preload"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      as="style"
+    />
+    <link rel="preload" href="styles/main.css" as="style" />
+
+    <!-- Link ai file CSS (Bootstrap e personalizzato) -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="styles/main.css" />
+
+    <meta name="description" content="Descrizione della pagina" />
+
+    <meta property="og:title" content="Og Title" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="URL della pagina" />
+    <meta property="og:image" content="Immagine della pagina" />
+    <meta property="og:image:alt" content="Descrizione immagine" />
 
     <link rel="icon" href="/favicon.ico" sizes="any" />
     <link rel="icon" href="/src/assets/icon.svg" type="image/svg+xml" />
@@ -22,8 +37,13 @@
   </head>
 
   <body>
-    <!-- Add your site or application content here -->
-    <p>Hello world! This is HTML5 Boilerplate.</p>
-    <script src="js/main.js"></script>
+    <!-- Caricamento deferito per il JavaScript di Bootstrap -->
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"
+      defer
+    ></script>
+
+    <!-- Caricamento deferito per il tuo JavaScript personalizzato -->
+    <script src="js/main.js" defer></script>
   </body>
 </html>
