@@ -1,0 +1,32 @@
+# Include your project-specific ignores in this file
+# Read about how to use .gitignore: https://help.github.com/articles/ignoring-files
+# Useful .gitignore templates: https://github.com/github/gitignore
+# Node modules
+node_modules/
+
+# Build output
+dist/
+build/
+
+# WebStorm IDE files
+.idea/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Logs
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Cache
+.cache/
+
+# Prettier & ESLint cache
+.prettier/
+.eslintcache/
+
+# Temporary files
+*.swp
+*.swo

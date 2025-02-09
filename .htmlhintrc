@@ -1,0 +1,23 @@
+{
+  "tagname-lowercase": true,
+  "attr-lowercase": true,
+  "attr-value-double-quotes": true,
+  "tag-pair": true,
+  "doctype-first": true,
+  "spec-char-escape": true,
+  "id-unique": true,
+  "img-alt-require": true, // Richiede l'attributo alt per le immagini, importante per l'accessibilità
+  "title-require": true, // Richiede il tag <title>, importante per la SEO
+  "meta-description-require": true, // Richiede un meta description, importante per la SEO
+  "meta-charset-require": true, // Assicura che il charset sia definito per la corretta codifica
+  "head-script-disabled": true, // Evita l'uso di script nel tag <head> per motivi di SEO e prestazioni
+  "link-rel-noopener": true, // Impone l'uso di `rel="noopener"` per i link con target="_blank" per motivi di sicurezza
+  "image-alt-require": true, // Forza l'inclusione dell'attributo "alt" nelle immagini
+  "title-max-length": 60, // Limita la lunghezza del titolo per la SEO (l'ideale è entro 60 caratteri)
+  "meta-description-max-length": 160, // Limita la lunghezza della descrizione meta per la SEO (l'ideale è entro 160 caratteri)
+  "no-inline-style": true, // Evita l'uso di stili in linea, per un miglior controllo del CSS e la SEO
+  "semantic-html": true, // Incoraggia l'uso di tag HTML5 semantici come <article>, <section>, <header>, <footer>, ecc.
+  "img-req-alt": true, // Richiede alt per le immagini, essenziale per l'accessibilità
+  "no-empty-alt": true, // Evita alt vuoti per immagini non decorative
+  "img-lazy-loading": true // Aggiunge l'attributo loading="lazy" per tutte le immagini, migliorando le performance
+}

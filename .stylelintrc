@@ -1,0 +1,17 @@
+{
+  "extends": "stylelint-config-standard",
+  "rules": {
+    "color-no-invalid-hex": true,
+    "declaration-colon-newline-after": "always",
+    "block-no-empty": true,
+    "unit-no-unknown": true,
+    "selector-max-id": 0,
+    "selector-max-class": 3,
+    "max-nesting-depth": 3, // Limita la profondità di nidificazione per migliorare la leggibilità e l'accessibilità
+    "selector-no-qualifying-type": true, // Non consente qualificatori di tipo per migliorare l'accessibilità
+    "font-family-no-duplicate-names": true, // Evita la duplicazione dei nomi di font per la corretta visualizzazione dei caratteri
+    "no-descending-specificity": true, // Evita la specificità discendente, migliorando la comprensione del codice
+    "no-empty-source": true, // Non consente fogli di stile vuoti
+    "max-line-length": [80, { "ignore": ["comments"] }] // Limita la lunghezza della linea per migliorare la leggibilità e l'accessibilità del codice
+  }
+}
